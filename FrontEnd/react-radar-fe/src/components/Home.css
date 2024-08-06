@@ -1,0 +1,67 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #d0e2f1 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.home-content {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #222;
+  animation: slideInFromLeft 1s ease-in-out;
+  padding-top: 15px;
+}
+
+.home-description {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 1rem;
+  animation: slideInFromRight 1s ease-in-out;
+}
+
+/* Image Animation */
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.home-image:hover {
+  animation: pulse 1s infinite;
+}
+.carousel-container {
+  width: 80%;
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 2rem auto;
+}
+
+.carousel-image {
+  width: 100%; /* Ensures the image fits within the container */
+  height: auto; /* Keeps the image's aspect ratio */
+  border-radius: 10px;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+rder-radius: 10px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

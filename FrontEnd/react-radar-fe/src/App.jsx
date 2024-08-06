@@ -8,6 +8,8 @@ import Recommendations from './components/Recommendations';
 import BookDetails from './components/BookDetails';
 import ReadingList from './components/ReadingList'
 import DiscussionForum from './components/DiscussionForum';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const App = () => {
   return (
